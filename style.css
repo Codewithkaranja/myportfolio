@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   --main-color: #24033f; /* Deep Purple */
   --accent-color: #8c08ebdc; /* Soft Lavender */
@@ -184,3 +185,123 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+=======
+:root {
+      --main-color: #24033f; /* Deep Purple */
+      --accent-color:#8c08ebdc ; /* Soft Lavender */
+      --text-color: black;
+      --bg-color: #f4f0fa;
+      --card-bg: rgba(226, 226, 233, 0.541);
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+     background:url(https://thefsforum.co.uk/wp-content/uploads/2020/01/iStock-1022887944-cropped.jpg) no-repeat center center fixed;
+    background-size: cover;
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--main-color), #8e44ad);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+      box-shadow: 0 4px 8px rgba(20, 20, 20, 0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.8rem;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      box-shadow: 0 8px 20pxrgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      transition: transform 0.3s ease;
+    }
+
+    .card{
+      font-weight: 600;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    h2 {
+      color: var(--main-color);
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    .skill {
+      background: var(--accent-color);
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      font-size: 0.95rem;
+      box-shadow: 0 2px 4px #17171891;
+    }
+    
+    .contact a {
+      color: var(--main-color);
+      text-decoration: none;
+      font-weight: bold;
+      text-align: center;
+      
+    }
+    
+
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+
+
+   
+
+
+    footer {
+      background-color: #24033f;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      font-size: 0.95rem;
+      color: #87858a;
+      border-top: 1px solid #d2b8ff;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .skill {
+        font-size: 0.85rem;
+      }
+    }
+>>>>>>> 06d9af6db889ac814100e2aa260418ed60ea321f
